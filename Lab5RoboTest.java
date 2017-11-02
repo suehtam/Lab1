@@ -43,7 +43,7 @@ public class RoboTest {
 		} catch (Exception e) {
 			Assert.assertEquals(
 					"Mensagem errada",
-					"Parametro incorreto para a criacao do robo. A sala é nula",
+					"Parametro incorreto para a criacao do robo. A sala Ã© nula",
 					e.getMessage());
 		}
 	}
